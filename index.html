@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+                
+            Image Editor
+
+        </title>
+        
+        <script src="javascript.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet"  href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Indie+Flower|Pacifico|Shrikhand|Wendy+One" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+    
+    </head>
+    
+    
+    <body>
+        
+<!--<img  id="back" src="https://wallpaperbrowse.com/media/images/eWtfMME_jJm8t1k.png">-->
+
+        <h1 style="color:white;">Image Editor</h1>
+<div id="img1">
+<img id="circle" src="http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/Desktop-Wallpaper-4.jpg"/>
+</div>
+<div id="container">
+<div class="control1">
+<span id="blur">blur:<p id="p1"></p></span>
+<input  id="blurinput"type="range" value="0" min="0" max="50" oninput="filtered()">
+<br><br>
+<span>contrast:<p id="p3"></p></span>
+<input  id="contrastinput"type="range" value="157" min="0" max="500" oninput="filtered()">
+<br><br>
+<span>brightness:<p id="p2"></p></span>
+<input  id="brightnessinput"type="range" value="79" min="0" max="500" oninput="filtered()">
+<br><br>
+
+<span>grayscale:<p id="p5"></p></span>
+<input  id="grayscaleinput"type="range" value="6" min="0" max="100" oninput="filtered()">
+<br><br>
+</div>
+<div class="control2">
+<span>Hue:<p id="p6"></p></span>
+<input  id="Hueinput"type="range" value="0" min="0" max="360" oninput="filtered()">
+<br><br>
+<span>invert:<p id="p7"></p></span>
+<input  id="invertinput"type="range" value="0" min="0" max="100" oninput="filtered()">
+<br><br>
+<span>opacity:<p id="p8"></p></span>
+<input  id="opacityinput"type="range" value="100" min="0" max="100" oninput="filtered()">
+<br><br>
+<span>saturate:<p id="p9"></p></span>
+<input  id="saturateinput"type="range" value="92" min="0" max="500" oninput="filtered()">
+<br><br>
+</div>
+<div class="control3">
+<span>sepia:<p id="p10"></p></span>
+<input  id="sepiainput"type="range" value="0" min="0" max="100" oninput="filtered()">
+<br><br>
+
+
+<span>x-shadow:</span>
+<input  id="x-shadowinput"type="range" value="0" min="0" max="200" oninput="filtered()">
+<br><br>
+<span>y-shadow:</span>
+<input  id="y-shadowinput"type="range" value="0" min="0" max="200" oninput="filtered()">
+<br><br>
+<span>color:</span>
+<input  id="colorinput"type="color" value="purple"oninput="filtered()">
+<br><br>
+<span>spread:</span>
+<input  id="spreadinput"type="range" value="0" min="0" max="200" oninput="filtered()">
+<br><br>
+</div>
+</div>
+<!--<span>opacity:</span>
+<input  id="opacityinput"type="range" value="10" min="0" max="100">
+<br><br>-->
+
+
+
+
+
+
+
+
+
+</div>
+<div class="panel-footer" >
+    <p id="des">Description</p>
+    <p id="some">
+        Now you can Edit your image with this image Editor.Try it  to make your photo best in this social world.
+    </p>
+</div>
+
+    </body>
+</html>

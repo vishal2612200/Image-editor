@@ -1,0 +1,159 @@
+title{
+    font-family: 'Wendy One', sans-serif;
+}
+body{
+    background:linear-gradient("orange","purple");
+      background:url("background.png");
+     background-size:cover;
+     background-repeat:no-repeat;
+    
+}
+#back{
+  
+    filter:blur("10px");
+    -webkit-filter: blur(10px);
+
+}
+
+h1{
+    position: absolute;
+    left:40%;
+    top:10%; 
+    font-size:300px;
+    margin-top:25px;
+    margin-bottom:5px;
+    font-family: 'Monoton', cursive;
+    transform:scale(4);
+     color:white;
+}
+#circle{
+   /* background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/Desktop-Wallpaper-4.jpg");*/
+    border-radius:50%;
+    border:white;
+    width:300px;
+    height: 300px;
+    position: relative;
+    left:45%;
+    top:60%;
+    margin-right: 0%;
+  transform: translate(-50%,50%);
+  display: block;
+ 
+}
+.control1{
+    text-align: center;
+    margin-top:15px;
+    font-family: 'Pacifico', cursive;
+    background:rgb(189, 104, 7);
+    width: 28%;
+    height:400px;
+    float:center;
+    position: absolute;
+    left:2%;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    padding:15px;
+    white-space: nowrap;
+  transform: translate(-0%,50%);
+  margin:3px;
+}
+.control2{
+    text-align: center;
+    margin-top:0px;
+    font-family: 'Pacifico', cursive;
+    background:rgb(218, 91, 18);
+    width: 28%;
+    height:400px;
+    float:center;
+    position: absolute;
+    right:0px;
+    left:44%;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    padding:15px;
+    white-space: nowrap;
+    transform: translate(-30%,50%);
+    margin-bottom:3px;
+}
+.control3{
+    text-align: center;
+    margin-top:0px;
+    font-family: 'Pacifico', cursive;
+    background:rgb(17, 177, 123);
+    width: 28%;
+    height:400px;
+    float:center;
+    position: absolute;
+    right:0%;
+    left:78%;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    padding:15px;
+    white-space: nowrap;
+    transform: translate(-30%,50%);
+}
+/* @media screen and (max-width: 650px) {
+    .column1 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .column2 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+  @media screen and (max-width: 650px) {
+    .column3 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+
+#container{
+    position: relative;
+    width:1200px;
+    height:400px;
+    margin:240px auto;
+}
+
+#container .content{
+position: relative;
+width:calc(400px-30px);
+height:calc(300px-30px);
+background: indigo;
+float:left;
+margin:10px;
+}
+*/
+.panel-footer{
+    position: absolute;
+    top:170%;
+    background: #292323;
+    width: 100%;
+    border-radius:8px;
+    color:whitesmoke;
+    text-align-last:10px;
+    text-decoration-color: greenyellow;
+}
+#des{
+    font-family: 'Anton', sans-serif;
+    font-size:50px;
+    text-align: center;
+}
+#some{
+    font-family: 'Indie Flower', cursive;
+    font-size:25px;
+    text-align:right;
+}
+
+input[type=range]{
+    border-top-right-radius:10px;
+    background-color: tomato;
+}
